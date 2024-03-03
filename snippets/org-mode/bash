@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: src-bash
+# uuid: src-bash
+# key: sb
+# condition: t
+# --
+
+#+BEGIN_SRC bash
+echo "Hello, World!"
+#+END_SRC
