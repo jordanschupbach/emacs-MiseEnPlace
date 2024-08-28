@@ -6,19 +6,39 @@
 
     ;; global, evil-normal-state - states: normal, visual, insert
 
-    (general-define-key ;; Globals/evil-normal-state
-       :states '(normal visual insert)
-       :keymaps '(global-map evil-normal-state-map override)
 
-       ;; "M-C-r" 'restart-emacs
+
+    ;; (general-define-key ;; Globals/evil-normal-state
+    ;;    :keymaps '(global-map override)
+    ;;    )
+
+
+
+
+    (general-define-key ;; Globals emacs
+       :states '(emacs)
+       :keymaps '(global-map evil-normal-state-map)
+       "/" 'consult-line
+       "j" 'evil-next-line
+       "k" 'evil-previous-line
+       )
+
+    (general-define-key ;; Globals evil
+       :states '(normal visual insert emacs)
+       :keymaps '(global-map evil-normal-state-map evil-collection-unimpared-mode-map)
+
+       "C-o" 'evil-jump-backward
+       "C-p" 'evil-jump-forward
        "M-C-r" 'doom/reload
        "H-C-=" 'increase-picom-transparency
        "H-C--" 'decrease-picom-transparency
        "C-=" 'text-scale-increase
        "C--" 'text-scale-decrease
-       "C-'" 'popper-toggle
-       "C-M-'" 'popper-toggle-type
+       ;; "C-'" 'popper-toggle
+       ;; "C-M-'" 'popper-toggle-type
        "C-w" 'tab-bar-close-tab
+       "C-d" 'evil-scroll-down
+       "C-u" 'evil-scroll-up
        "M-1" 'mep/select-tab-first
        "M-2" 'mep/select-tab-second
        "M-3" 'mep/select-tab-third
@@ -43,21 +63,17 @@
        ;; "M-x" 'counsel-M-x
        "M-<iso-lefttab>" 'tab-bar-switch-to-prev-tab
        "M-<tab>" 'tab-bar-switch-to-next-tab
-
        "M-H" 'mep/change-window-size-h
        "M-L" 'mep/change-window-size-l
        "M-J" 'mep/change-window-size-j
        "M-K" 'mep/change-window-size-k
-
+       "M-f" 'zen-mode
        ;; "M-S-k" 'evil-rotate-downwards
        "M-S-<tab>" 'tab-bar-switch-to-prev-tab
        "M-q" 'evil-window-delete
        "C-q" 'evil-delete-buffer
        "C-Q" 'evil-quit
-       ;; "C-o" 'gumshoe-persp-backtrack-back
        "C-t" 'tab-bar-new-tab
-       ;; "C-i" 'gumshoe-persp-backtrack-forward
-       ;; "C-<SPACE>" 'send-line-to-target-process
        "C-<return>" 'mep/send-line-to-target-process
        "C-<tab>" 'tab-bar-switch-to-next-tab
        [(control shift iso-lefttab)] 'tab-bar-switch-to-prev-tab
@@ -65,11 +81,13 @@
        ;; "C-k" 'kill-word
        "C-k" 'projectile-compile-project
        "C-u" 'evil-scroll-up
+       "M-x" 'execute-extended-command
        )
 
     (general-define-key  ;; Evil normal and visual mode bindings
        :states '(normal visual)
-       :keymaps '(global-map evil-normal-state-map override)
+       :keymaps '(global-map evil-normal-state-map evil-collection-unimpaired-mode-map)
+       "K" 'lsp-ui-doc-toggle
        "q" 'keyboard-escape-quit
        "zj" 'origami-next-fold
        "gl" 'gptel-send
@@ -79,6 +97,8 @@
        "zp" 'origami-previous-fold
        "s" 'avy-goto-char-timer
        "go" 'consult-outline
+       "]e" 'flycheck-next-error
+       "[e" 'flycheck-previous-error
        ;; "C-o" 'gumshoe-persp-backtrack-back
        ;; "C-i" 'gumshoe-persp-backtrack-forward
        "/" 'consult-line
@@ -94,7 +114,7 @@
 
     (general-define-key ;; global, evil-normal-state - states: normal, visual, insert
        :states '(normal visual insert)
-       :keymaps '(global-map evil-normal-state-map override)
+       :keymaps '(global-map evil-normal-state-map)
        ;; "C-c C-c" 'evilnc-comment-or-uncomment-lines ;; TODO: find a new bind for commenting
 
      "H-C-=" 'increase-picom-transparency
@@ -169,10 +189,11 @@
 
     (general-define-key ;; Evil normal and visual mode bindings
        :states '(normal visual)
-       :keymaps '(global-map evil-normal-state-map override)
+       :keymaps '(global-map evil-normal-state-map)
        "q" 'keyboard-escape-quit
        "zj" 'origami-next-fold
        "gl" 'gptel-send
+       "gd" 'lsp-bridge-find-def
        "zM" 'hs-hide-level
        "zk" 'origami-previous-fold
        "zn" 'origami-next-fold
@@ -197,20 +218,17 @@
        "D" 'treemacs-delete-file
        "C-r" 'treemacs-refresh
     )
-(general-define-key ;; treemacs
-       :states '(normal visual treemacs)
-       :keymaps '(coq-mode-map)
-       "C-<tab>" 'tab-bar-switch-to-next-tab
-     "C-<return>" 'proof-assert-next-command-interactive
-     "C-S-<return>" 'proof-undo-last-successful-command
-    )
-
-
-
-
 
     (general-define-key ;; treemacs
-       :states '(normal visual neotree)
+	:states '(normal visual treemacs)
+	:keymaps '(coq-mode-map)
+	"C-<tab>" 'tab-bar-switch-to-next-tab
+	"C-<return>" 'proof-assert-next-command-interactive
+	"C-S-<return>" 'proof-undo-last-successful-command
+	)
+
+    (general-define-key ;; treemacs
+       :states '(normal)
        :keymaps '(neotree-mode-map)
        ;; "C-o" 'gumshoe-persp-backtrack-back
        ;; "C-i" 'gumshoe-persp-backtrack-forward
@@ -218,14 +236,22 @@
        "M-<tab>" 'tab-bar-switch-to-next-tab
        "M-L" 'evil-window-increase-width
        "M-H" 'evil-window-decrease-width
-       ;; "a" 'find-file
-       "r" 'treemacs-rename-file
+       "<return>" 'neotree-enter
+       "r" 'neotree-rename-node
        "l" 'neotree-enter
        "a" 'neotree-create-node
-       ;; "h" 'treemacs-collapse-parent-node
-       ;; "D" 'treemacs-delete-file
-       "C-r" 'treemacs-refresh
+       "d" 'neotree-delete-node
+       "C-y" 'neotree-copy-node
+       "y" 'neotree-copy-filepath-to-yank-ring
+       "j" 'neotree-next-line
+       "k" 'neotree-previous-line
+       "C-r" 'neotree-refresh
+       "C-f" 'neotree-dir
+       "C-o" 'neotree-enter-ace-window
     )
+
+
+
 
     (general-define-key ;; company
         :states '(normal visual company)
@@ -250,13 +276,6 @@
        "M-d" 'treemacs-quit
     )
 
-    (general-define-key ;; Org-agenda modemap bindings
-       :states '(normal visual)
-       :keymaps '(org-agenda-mode-map)
-       "j" 'org-agenda-next-line
-       "k" 'org-agenda-previous-line
-    )
-
     (general-define-key ;; org-super-agenda-header-map
        :states '(normal visual)
        :keymaps '(org-super-agenda-header-map)
@@ -265,11 +284,86 @@
        "k" 'org-agenda-previous-line
     )
 
+    ;; Org-Agenda Month Diary Ddl Grid Habit mode defined in org-agenda.el:
+
+    (general-def 'org-agenda-mode-map ;; org-agenda
+       ":" 'evil-exec
+       "j" 'org-agenda-next-line
+       "k" 'org-agenda-previous-line
+       "M-h" 'evil-window-left
+       "M-l" 'evil-window-right
+       "M-j" 'evil-window-down
+       "M-k" 'evil-window-up
+       "M-d" 'evil-window-delete
+       "M-r" 'tab-bar-rename-tab
+       "M-s" 'evil-window-split
+       "M-v" 'evil-window-vsplit
+       "M-H" 'mep/change-window-size-h
+       "M-L" 'mep/change-window-size-l
+       "M-J" 'mep/change-window-size-j
+       "M-K" 'mep/change-window-size-k
+       "/" 'consult-line
+	;; Add more key bindings here
+    )
+
+    (general-def 'help-mode-map ;; org-agenda
+       ":" 'evil-exec
+       "j" 'org-agenda-next-line
+       "k" 'org-agenda-previous-line
+       "M-l" 'evil-window-right
+       "M-j" 'evil-window-down
+       "M-k" 'evil-window-up
+       "M-d" 'evil-window-delete
+       "M-r" 'tab-bar-rename-tab
+       "M-s" 'evil-window-split
+       "M-v" 'evil-window-vsplit
+       "M-H" 'mep/change-window-size-h
+       "M-L" 'mep/change-window-size-l
+       "M-J" 'mep/change-window-size-j
+       "M-K" 'mep/change-window-size-k
+       "/" 'consult-line
+	;; Add more key bindings here
+    )
+
+    (general-define-key ;; company
+        :states '(normal visual insert)
+        :keymaps '(acm-mode-map)
+	    "C-n" 'acm-select-next
+	    "C-p" 'acm-select-prev)
+
+    (general-def 'acm-mode-map
+	    "C-n" 'acm-select-next
+	    "C-p" 'acm-select-prev)
+
+
+    ;; 'tabulated-list-mode ?
+    ;; (general-def 'package-menu-mode-map 
+    (general-def 'tabulated-list-mode-map 
+       ":" 'evil-exec
+       "j" 'evil-next-line
+       "k" 'evil-previous-line
+       "M-l" 'evil-window-right
+       "M-j" 'evil-window-down
+       "M-k" 'evil-window-up
+       "M-d" 'evil-window-delete
+       "M-r" 'tab-bar-rename-tab
+       "M-s" 'evil-window-split
+       "M-v" 'evil-window-vsplit
+       "M-H" 'mep/change-window-size-h
+       "M-L" 'mep/change-window-size-l
+       "M-J" 'mep/change-window-size-j
+       "M-K" 'mep/change-window-size-k
+	;; Add more key bindings here
+    )
+
+
+
     (general-define-key ;; sh-mode-map
        :states '(normal visual)
        :keymaps '(sh-mode-map)
        "M-<RET>" '(bg-elpy-shell-send-statement-and-step :which-key "send")
        "C-c C-c" 'org-ctrl-c-ctrl-c
+       "M-x" 'execute-extended-command
        ;; ",l" '(:ignore t :which-key "Python")
        ;; ",la" '(elpy-goto-assignment :which-key "goto-Assignment")
        )
@@ -350,6 +444,8 @@
        :keymaps '(org-mode-map)
        "C-c C-c" 'org-ctrl-c-ctrl-c
        "M-C-<return>" 'org-babel-execute-src-block
+
+       ;; "M-<RET>" 'elpy-shell-send-statement-and-step
        "M-C-e" 'org-latex-export-to-pdf
        "M-o" 'org-open-at-point
        "M-l" 'evil-window-right
@@ -371,16 +467,12 @@
        "M-<RET>" 'elpy-shell-send-statement-and-step
        )
 
-
-    (general-define-key ;; java-mode-map (normal & visual)
-       :states '(normal visual)
-       :keymaps '(java-mode-map)
-       "K" 'lsp-ui-doc-toggle
-       "<SPC>ee" 'flycheck-list-errors
-       )
-
-
-
+    ;; (general-define-key ;; java-mode-map (normal & visual)
+    ;;    :states '(normal visual)
+    ;;    :keymaps '(java-mode-map)
+    ;;    "K" 'lsp-ui-doc-toggle
+    ;;    "<SPC>ee" 'flycheck-list-errors
+    ;;    )
 
     (general-define-key ;; python-mode-map
        :states '(normal visual)
@@ -490,8 +582,8 @@
 
          ;; Files
          "f" '(:ignore t :which-key "files")
-         "ff" '(treemacs :which-key "menu")
-         ;; "ff" '(neotree-toggle :which-key "menu")
+         ;; "ff" '(treemacs :which-key "menu")
+         "ff" '(neotree-toggle :which-key "menu")
          ;; "ff" '(neotree-toggle :which-key "menu")
          "fc" '(treemacs-create-file :which-key "create file")
          "fC" '(treemacs-create-dir :which-key "create dir")
@@ -530,9 +622,9 @@
          "hc" '(counsel-cheatsheets :which-key "cheatsheets")
          "hm" '(describe-mode :which-key "mode")
          "hk" '(describe-key :which-key "key")
-         "hf" '(counsel-describe-function :which-key "function")
-         "hv" '(counsel-describe-variable :which-key "variable")
-         "hs" '(counsel-describe-symbol :which-key "symbol")
+         "hf" '(describe-function :which-key "function")
+         "hv" '(describe-variable :which-key "variable")
+         "hs" '(describe-symbol :which-key "symbol")
 
          ;; Imenu
          "i" '(:ignore t :which-key "imenu")
@@ -563,27 +655,51 @@
          "occ" '(org-capture :which-key "capture")
          "oci" '(org-clock-in :which-key "clock-in")
          "oco" '(org-clock-out :which-key "clock-out")
-         "or" '(:ignore t :which-key "ref")
-         "orr" '(org-ref-insert-link :which-key "search")
-         "oru" '(org-roam-ui-open :which-key "search")
+         "oR" '(:ignore t :which-key "ref")
+         "oRr" '(org-ref-insert-link :which-key "search")
          "otc" '(org-show-block-all :which-key "show blocks")
-         "oti" '(org-toggle-inline-images :which-key "show blocks")
-         "otl" '(org-toggle-inline-images :which-key "show blocks")
+         "ott" '(org-transclusion-add :which-key "Transclude add")
+         "ott" '(org-transclusion-mode :which-key "Transclusion")
+         "oti" '(org-toggle-inline-images :which-key "Inline Images")
+         "otl" '(org-latex-preview :which-key "Latex preview")
+         "oo" '(org-transclusion-open-source :which-key "Open Src")
+
+
+         "or" '(:ignore t :which-key "roam")
+         "orr" '(org-roam-node-find :which-key "find-node")
+         ;; "orR" '(org-roam-node-find :which-key "find-node") some grep
+         "ord" '(:ignore t :which-key "dailies")
+         "oro" '(org-roam-node-find :which-key "find-node")
+         "orc" '(org-roam-capture :which-key "capture")
+         "ori" '(org-roam-node-insert :which-key "insert")
+         "org" '(org-roam-graph :which-key "graph")
+         "ors" '(org-roam-db-sync :which-key "sync")
+         "oru" '(org-roam-ui-open :which-key "search")
+         "ordc" '(org-roam-dailies-capture-today :which-key "capture")
+         "ordf" '(org-roam-dailies-find-today :which-key "find")
+
+
+
+
+
 
          ;; Projects
          "p" '(:ignore t :which-key "projects")
          "pA" '(projectile-add-known-project :which-key "add")
-         "pb" '(consult-project-buffer :which-key "add")
+         ;; "pb" '(consult-project-buffer :which-key "add")
+         "pb" '(consult-project-extra-find :which-key "add")
          "pa" '(counsel-projectile-org-agenda :which-key "agenda")
          "pc" '(counsel-projectile-org-capture :which-key "capture")
          "pd" '(counsel-projectile-find-dir :which-key "directory")
          "pm" '(projectile-compile-project :which-key "compile")
          ;; "po" '(projectile-switch-project :which-key "open")
-         "po" '(projectile-persp-switch-project :which-key "open")
-         ;; "pp" '(persp-switch :which-key "switch")
-         "pp" '(counsel-projectile-switch-project :which-key "open")
+         "po" '(project-switch-project :which-key "open")
+         "pp" '(persp-switch :which-key "switch")
+         ;; "pp" '(counsel-projectile-switch-project :which-key "open")
          ;; "pf" '(counsel-projectile-find-file :which-key "file")
          "pf" '(affe-find :which-key "file")
+         ;; "pf" '(consult-project-extra-find :which-key "file")
+
          ;; "pq" '(projectile-kill-buffers :which-key "quit")
          "pq" '(persp-kill :which-key "quit")
          ;; "pr" '(affe-grep :which-key "ripgrep")
@@ -605,15 +721,6 @@
 
 
 
-         "r" '(:ignore t :which-key "roam")
-         "rr" '(org-roam-node-find :which-key "find-node")
-         "rc" '(org-roam-capture :which-key "capture")
-         "ri" '(org-roam-node-insert :which-key "insert")
-         "rg" '(org-roam-graph :which-key "graph")
-         "rs" '(org-roam-db-sync :which-key "sync")
-         "rd" '(:ignore t :which-key "dailies")
-         "rdc" '(org-roam-dailies-capture-today :which-key "capture")
-         "rdf" '(org-roam-dailies-find-today :which-key "find")
 
          ;; Todos
          "t" '(:ignore t :which-key "todos")
@@ -690,7 +797,11 @@
          )
 
 
-
+    (general-define-key ;; Globals emacs
+       :states '(normal visual insert emacs)
+       :keymaps '(magit-status-mode-map)
+       "s" 'magit-stage-file
+       )
 
 
 )

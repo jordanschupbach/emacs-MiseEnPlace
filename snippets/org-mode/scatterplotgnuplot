@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
 # name: scatterplot-gnuplot
-# uuid: scatterplot-gnuplot
 # key: scatterplotgnuplot
-# condition: t
 # --
 
 #+begin_src gnuplot :file iris_plot.png

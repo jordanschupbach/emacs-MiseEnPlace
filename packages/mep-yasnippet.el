@@ -2,7 +2,10 @@
 
 (use-package yasnippet
  :straight (:host github :repo "joaotavora/yasnippet")
+ :config
  (yas-global-mode 1)
-  (add-hook 'org-mode-hook #'yas-minor-mode)
- )
 
+ ;; (yas-reload-all)
+ ;; (add-hook 'org-mode-hook #'yas-minor-mode)
+
+ )

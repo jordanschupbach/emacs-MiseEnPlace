@@ -1,4 +1,4 @@
-;;; package --- use-package for consult
+;; package --- use-package for consult
 ;;; Commentary:
 ;;; https://github.com/minad/consult.git
 ;;; Code:
@@ -61,3 +61,8 @@
 )
 
 ;;; mep-consult.el ends here
+(use-package consult-project-extra
+  :straight (consult-project-extra :type git :host github :repo "Qkessler/consult-project-extra")
+  :bind
+  (("C-c p f" . consult-project-extra-find)
+   ("C-c p o" . consult-project-extra-find-other-window)))

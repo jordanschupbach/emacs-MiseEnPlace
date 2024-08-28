@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
 # name: R plot darkmode
-# uuid:
 # key: rplotDark
-# condition: t
 # --
 
 #+BEGIN_SRC R :file test.png :results graphics

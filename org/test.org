@@ -1,0 +1,91 @@
+#+title: A test documnet
+#+author: Jordan Schupbach
+#+date: 2024-03-30
+#+description: Description of the document
+#+keywords: org-mode, yaml, header
+#+options: H:2 num:nil toc:nil \˗\
+todo:nil \| tasks:nil pri:nil tags:toc
+#+startup: overview
+
+* Main section
+
+#+begin_src python :async :tangle "test.py" :results output
+import numpy as np
+print("Helloz worldz")
+#+end_src
+
+#+RESULTS:
+: Helloz worldz
+
+
+#+begin_src C++ :async :compiler-args -O2 :flags -std=c++20 -I/home/jordan/dev/data_munge/extern/gismo-dist/include/gismo/ -L/home/jordan/dev/data_munge/extern/gismo-dist/lib/gismo/ -lgismo -lgsl -larmadillo
+
+#include<iostream>
+#include <span>
+#include <memory>
+#include <datamunge/datamunge/all.hpp>
+
+int main() {
+  size_t n = 10000;
+  auto xypair = dm::doppler1d(n, 0.1);
+  auto x = xypair.first;
+  auto y = xypair.second;
+  auto plt = dm::Plot();
+  plt.add_points(x, y);
+  // plt.show();
+  dm::mkdir("./figs");
+  plt.save("./figs/doppler_1d.png");
+  return 0;
+}
+#+end_src
+
+#+RESULTS:
+
+[[file:figs/doppler_1d.png]]
+
+#+RESULTS:
+
+
+#+begin_src C++ :async :includes '(<iostream> <stdio.h>) :results output graphics 
+std::cout<<"Hellozz Worldzz!\n";
+printf("%d\n", 2+2);
+#+end_src
+
+#+RESULTS:
+: Hellozz Worldzz!
+: 4
+
+
+
+#+begin_src C++ :async :compiler-args -O2 :flags -std=c++20 :includes '(<iostream> <span>) :results output
+#include <iostream>
+#include <span>
+
+int main() {
+
+  std::cout << "A simple span example: " << std::endl;
+  int arr[] = {1, 2, 3, 4, 5};
+  std::span<int> numbers(arr, 5);
+  for (int num : numbers) {
+    std::cout << num << " ";
+  }
+
+  return 0;
+}
+#+end_src
+
+#+RESULTS:
+: A simple span example: 
+: 1 2 3 4 5 
+ |
+| 0.0615735079627484 |
+| 0.0133640437852591 |
+|  0.878405421273783 |
+8
+
+** Subsection
+
+* Other main
+
+** Another subsection
+* Another main

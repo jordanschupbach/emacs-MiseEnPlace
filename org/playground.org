@@ -1,39 +1,19 @@
 * A simple org mode document
 
+#+begin_src ess-r :file circle.png :results graphics :tangle circle_plot.rtangle circle_plot.r
+  library(ggplot2)
 
+  # Create data for the circle
+  theta <- seq(0, 2 * pi, length.out = 100)
+  x <- cos(theta)
+  y <- sin(theta)
 
-#+begin_src R :file circle.png :results graphics
-library(ggplot2)
-
-# Create data for the circle
-theta <- seq(0, 2 * pi, length.out = 100)
-x <- cos(theta)
-y <- sin(theta)
-
-# Create the plot
-plot = ggplot() +
-  geom_polygon(aes(x, y), fill = rgb(0.1, 0.2, 0.4, 0), color = rgb(0.9, 0.3, 0.7, 1), linewidth = 3) +
-  geom_segment(aes(x = 0, y = 0, xend = cos(0), yend = sin(0)),
-               color = "white", arrow = arrow(length = unit(0.3, "cm")), linewidth = 1) +
-  geom_segment(aes(x = 0, y = 0, xend = cos(pi/3), yend = sin(pi/3)),
-               color = "white", arrow = arrow(length = unit(0.3, "cm")), linewidth = 1) +
-  geom_text(aes(label = "sin(theta)", x = 1.1 * cos(0), y = 1.1 * sin(0)),
-            color = "white", fontface = "bold", size = 4) +
-  geom_text(aes(label = "cos(theta)", x = 1.1 * cos(pi/3), y = 1.1 * sin(pi/3)),
-            color = "white", fontface = "bold", size = 4) +
-  coord_equal() +
-  xlim(-1.5, 1.5) +
-  ylim(-1.5, 1.5) +
- theme(text = element_text(color = rgb(0.9, 0.8, 0.8, 1)),
-            plot.background = element_rect(fill =  rgb(0.1, 0.2, 0.2, 1)),
-            panel.background = element_rect(fill = rgb(0.1, 0.2, 0.2, 1), color = 'purple'),
-            panel.grid = element_line(color = rgb(0.9, 0.3, 0.7, 1)),
-            axis.text = element_text(color = rgb(0.9, 0.3, 0.7, 1)),
-            axis.ticks = element_line(color = "blue")) +
-            geom_point(color = rgb(0.0, 0.9, 1, 1), size = 3) +
-            geom_line(color =  rgb(0.0, 0.9, 1, 1))
-            print(plot)
-
+  # Create the plot
+  plot = ggplot() +
+    geom_polygon(aes(x, y), fill = rgb(0.1, 0.2, 0.4, 0),
+      color = rgb(0.9, 0.3, 0.7, 1), linewidth = 3) +
+    geom_segment(aes(x = 0, y = 0, xend = cos(0), yend = sin(0)),
+         
 #+end_src
 
 #+RESULTS:
@@ -42,7 +22,7 @@ plot = ggplot() +
 
 
 
-#+begin_src cpp
+#+begin_src cpp :tangle "hello_worlr.cpp"
   #include<iostream>
   int main() {
     std::cout << "Hello.... worlr";
@@ -61,7 +41,9 @@ plot = ggplot() +
 #include <iostream>
 #include <chrono>
 #include <thread>
+
 int main() {
+  int n = 20;
   auto x = dm::runif(100, 0.0, 1.0);
   dm::print(x);
   // dm::print(dm::head(x, 5));
@@ -71,110 +53,3 @@ int main() {
 #+end_src
 
 
-#+RESULTS:
-#+begin_example
-[
-  0.0361754, 
-  0.67369, 
-  0.144373, 
-  0.924068, 
-  0.663237, 
-  0.967548, 
-  0.532532, 
-  0.167551, 
-  0.194168, 
-  0.244984, 
-  0.590587, 
-  0.352947, 
-  0.080383, 
-  0.42922, 
-  0.726841, 
-  0.680938, 
-  0.353056, 
-  0.341354, 
-  0.873141, 
-  0.187043, 
-  0.892847, 
-  0.295757, 
-  0.383402, 
-  0.991223, 
-  0.465256, 
-  0.161989, 
-  0.596574, 
-  0.83957, 
-  0.273771, 
-  0.959104, 
-  0.392279, 
-  0.93897, 
-  0.15909, 
-  0.864973, 
-  0.813284, 
-  0.108432, 
-  0.0132649, 
-  0.11416, 
-  0.587678, 
-  0.0607864, 
-  0.931129, 
-  0.828894, 
-  0.0730194, 
-  0.11205, 
-  0.853668, 
-  0.852368, 
-  0.716327, 
-  0.117776, 
-  0.765066, 
-  0.933931, 
-  0.725017, 
-  0.407905, 
-  0.986643, 
-  0.902037, 
-  0.669034, 
-  0.642642, 
-  0.667995, 
-  0.187192, 
-  0.164793, 
-  0.998995, 
-  0.335403, 
-  0.177628, 
-  0.00441778, 
-  0.959051, 
-  0.967713, 
-  0.922498, 
-  0.749811, 
-  0.838745, 
-  0.635141, 
-  0.543158, 
-  0.61474, 
-  0.100894, 
-  0.476378, 
-  0.796048, 
-  0.670979, 
-  0.667266, 
-  0.51182, 
-  0.546936, 
-  0.0699999, 
-  0.878529, 
-  0.240678, 
-  0.524185, 
-  0.639255, 
-  0.462844, 
-  0.185423, 
-  0.339564, 
-  0.290432, 
-  0.0810655, 
-  0.0292665, 
-  0.989293, 
-  0.165643, 
-  0.225753, 
-  0.997008, 
-  0.696041, 
-  0.881271, 
-  0.194428, 
-  0.386044, 
-  0.198282, 
-  0.0239156, 
-  0.419141
-]
-
-asldkfkj alsdf;j sdlfj
-#+end_example

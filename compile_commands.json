@@ -1,0 +1,452 @@
+[
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock/include -I/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -I/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/1d_doppler_de.dir/1d_doppler_de.cpp.o -c /home/jordan/dev/data_munge/examples/1d_doppler_de.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/1d_doppler_de.cpp",
+  "output": "examples/CMakeFiles/1d_doppler_de.dir/1d_doppler_de.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/1d_doppler_de_v2.dir/1d_doppler_de_v2.cpp.o -c /home/jordan/dev/data_munge/examples/1d_doppler_de_v2.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/1d_doppler_de_v2.cpp",
+  "output": "examples/CMakeFiles/1d_doppler_de_v2.dir/1d_doppler_de_v2.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/1d_doppler_pso.dir/1d_doppler_pso.cpp.o -c /home/jordan/dev/data_munge/examples/1d_doppler_pso.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/1d_doppler_pso.cpp",
+  "output": "examples/CMakeFiles/1d_doppler_pso.dir/1d_doppler_pso.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/abc.dir/abc.cpp.o -c /home/jordan/dev/data_munge/examples/abc.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/abc.cpp",
+  "output": "examples/CMakeFiles/abc.dir/abc.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/ad_example.dir/ad_example.cpp.o -c /home/jordan/dev/data_munge/examples/ad_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/ad_example.cpp",
+  "output": "examples/CMakeFiles/ad_example.dir/ad_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/almd1_example.dir/almd1_example.cpp.o -c /home/jordan/dev/data_munge/examples/almd1_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/almd1_example.cpp",
+  "output": "examples/CMakeFiles/almd1_example.dir/almd1_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/almnode_example.dir/almnode_example.cpp.o -c /home/jordan/dev/data_munge/examples/almnode_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/almnode_example.cpp",
+  "output": "examples/CMakeFiles/almnode_example.dir/almnode_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/armadillo_example.dir/armadillo_example.cpp.o -c /home/jordan/dev/data_munge/examples/armadillo_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/armadillo_example.cpp",
+  "output": "examples/CMakeFiles/armadillo_example.dir/armadillo_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/armadillo_v2.dir/armadillo_v2.cpp.o -c /home/jordan/dev/data_munge/examples/armadillo_v2.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/armadillo_v2.cpp",
+  "output": "examples/CMakeFiles/armadillo_v2.dir/armadillo_v2.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/base_examples.dir/base_examples.cpp.o -c /home/jordan/dev/data_munge/examples/base_examples.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/base_examples.cpp",
+  "output": "examples/CMakeFiles/base_examples.dir/base_examples.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/base_test.dir/base_test.cpp.o -c /home/jordan/dev/data_munge/examples/base_test.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/base_test.cpp",
+  "output": "examples/CMakeFiles/base_test.dir/base_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/base_tester.dir/base_tester.cpp.o -c /home/jordan/dev/data_munge/examples/base_tester.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/base_tester.cpp",
+  "output": "examples/CMakeFiles/base_tester.dir/base_tester.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/bridge_example.dir/bridge_example.cpp.o -c /home/jordan/dev/data_munge/examples/bridge_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/bridge_example.cpp",
+  "output": "examples/CMakeFiles/bridge_example.dir/bridge_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/bridge_example2.dir/bridge_example2.cpp.o -c /home/jordan/dev/data_munge/examples/bridge_example2.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/bridge_example2.cpp",
+  "output": "examples/CMakeFiles/bridge_example2.dir/bridge_example2.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/bsp_ex.dir/bsp_ex.cpp.o -c /home/jordan/dev/data_munge/examples/bsp_ex.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/bsp_ex.cpp",
+  "output": "examples/CMakeFiles/bsp_ex.dir/bsp_ex.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/bspline_example.dir/bspline_example.cpp.o -c /home/jordan/dev/data_munge/examples/bspline_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/bspline_example.cpp",
+  "output": "examples/CMakeFiles/bspline_example.dir/bspline_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/casting_example.dir/casting_example.cpp.o -c /home/jordan/dev/data_munge/examples/casting_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/casting_example.cpp",
+  "output": "examples/CMakeFiles/casting_example.dir/casting_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/cimg_test.dir/cimg_test.cpp.o -c /home/jordan/dev/data_munge/examples/cimg_test.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/cimg_test.cpp",
+  "output": "examples/CMakeFiles/cimg_test.dir/cimg_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/cimg_x11_test.dir/cimg_x11_test.cpp.o -c /home/jordan/dev/data_munge/examples/cimg_x11_test.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/cimg_x11_test.cpp",
+  "output": "examples/CMakeFiles/cimg_x11_test.dir/cimg_x11_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/cimg_x11_test2.dir/cimg_x11_test2.cpp.o -c /home/jordan/dev/data_munge/examples/cimg_x11_test2.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/cimg_x11_test2.cpp",
+  "output": "examples/CMakeFiles/cimg_x11_test2.dir/cimg_x11_test2.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/concurrent_vector_example.dir/concurrent_vector_example.cpp.o -c /home/jordan/dev/data_munge/examples/concurrent_vector_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/concurrent_vector_example.cpp",
+  "output": "examples/CMakeFiles/concurrent_vector_example.dir/concurrent_vector_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/deduction_example.dir/deduction_example.cpp.o -c /home/jordan/dev/data_munge/examples/deduction_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/deduction_example.cpp",
+  "output": "examples/CMakeFiles/deduction_example.dir/deduction_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/df_example.dir/df_example.cpp.o -c /home/jordan/dev/data_munge/examples/df_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/df_example.cpp",
+  "output": "examples/CMakeFiles/df_example.dir/df_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/differential_evolution_experiment.dir/differential_evolution_experiment.cpp.o -c /home/jordan/dev/data_munge/examples/differential_evolution_experiment.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/differential_evolution_experiment.cpp",
+  "output": "examples/CMakeFiles/differential_evolution_experiment.dir/differential_evolution_experiment.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/digraph_example.dir/digraph_example.cpp.o -c /home/jordan/dev/data_munge/examples/digraph_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/digraph_example.cpp",
+  "output": "examples/CMakeFiles/digraph_example.dir/digraph_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/domain_example.dir/domain_example.cpp.o -c /home/jordan/dev/data_munge/examples/domain_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/domain_example.cpp",
+  "output": "examples/CMakeFiles/domain_example.dir/domain_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/eigen_example.dir/eigen_example.cpp.o -c /home/jordan/dev/data_munge/examples/eigen_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/eigen_example.cpp",
+  "output": "examples/CMakeFiles/eigen_example.dir/eigen_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/fixed_width_experiment.dir/fixed_width_experiment.cpp.o -c /home/jordan/dev/data_munge/examples/fixed_width_experiment.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/fixed_width_experiment.cpp",
+  "output": "examples/CMakeFiles/fixed_width_experiment.dir/fixed_width_experiment.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/fmt_example.dir/fmt_example.cpp.o -c /home/jordan/dev/data_munge/examples/fmt_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/fmt_example.cpp",
+  "output": "examples/CMakeFiles/fmt_example.dir/fmt_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/formula_example.dir/formula_example.cpp.o -c /home/jordan/dev/data_munge/examples/formula_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/formula_example.cpp",
+  "output": "examples/CMakeFiles/formula_example.dir/formula_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/gsl_ex.dir/gsl_ex.cpp.o -c /home/jordan/dev/data_munge/examples/gsl_ex.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/gsl_ex.cpp",
+  "output": "examples/CMakeFiles/gsl_ex.dir/gsl_ex.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/heatmap_example.dir/heatmap_example.cpp.o -c /home/jordan/dev/data_munge/examples/heatmap_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/heatmap_example.cpp",
+  "output": "examples/CMakeFiles/heatmap_example.dir/heatmap_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/iris_dataset_example.dir/iris_dataset_example.cpp.o -c /home/jordan/dev/data_munge/examples/iris_dataset_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/iris_dataset_example.cpp",
+  "output": "examples/CMakeFiles/iris_dataset_example.dir/iris_dataset_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/map_notify_example.dir/map_notify_example.cpp.o -c /home/jordan/dev/data_munge/examples/map_notify_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/map_notify_example.cpp",
+  "output": "examples/CMakeFiles/map_notify_example.dir/map_notify_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/matplot_example.dir/matplot_example.cpp.o -c /home/jordan/dev/data_munge/examples/matplot_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/matplot_example.cpp",
+  "output": "examples/CMakeFiles/matplot_example.dir/matplot_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/matrix_example.dir/matrix_example.cpp.o -c /home/jordan/dev/data_munge/examples/matrix_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/matrix_example.cpp",
+  "output": "examples/CMakeFiles/matrix_example.dir/matrix_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/node_example.dir/node_example.cpp.o -c /home/jordan/dev/data_munge/examples/node_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/node_example.cpp",
+  "output": "examples/CMakeFiles/node_example.dir/node_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/norm_range.dir/norm_range.cpp.o -c /home/jordan/dev/data_munge/examples/norm_range.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/norm_range.cpp",
+  "output": "examples/CMakeFiles/norm_range.dir/norm_range.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/plot_example.dir/plot_example.cpp.o -c /home/jordan/dev/data_munge/examples/plot_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/plot_example.cpp",
+  "output": "examples/CMakeFiles/plot_example.dir/plot_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/png_example.dir/png_example.cpp.o -c /home/jordan/dev/data_munge/examples/png_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/png_example.cpp",
+  "output": "examples/CMakeFiles/png_example.dir/png_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/pr_tree_example.dir/pr_tree_example.cpp.o -c /home/jordan/dev/data_munge/examples/pr_tree_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/pr_tree_example.cpp",
+  "output": "examples/CMakeFiles/pr_tree_example.dir/pr_tree_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/rangev3_example.dir/rangev3_example.cpp.o -c /home/jordan/dev/data_munge/examples/rangev3_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/rangev3_example.cpp",
+  "output": "examples/CMakeFiles/rangev3_example.dir/rangev3_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/read_csv_example.dir/read_csv_example.cpp.o -c /home/jordan/dev/data_munge/examples/read_csv_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/read_csv_example.cpp",
+  "output": "examples/CMakeFiles/read_csv_example.dir/read_csv_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/simple_image_viewer.dir/simple_image_viewer.cpp.o -c /home/jordan/dev/data_munge/examples/simple_image_viewer.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/simple_image_viewer.cpp",
+  "output": "examples/CMakeFiles/simple_image_viewer.dir/simple_image_viewer.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/simple_test.dir/simple_test.cpp.o -c /home/jordan/dev/data_munge/examples/simple_test.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/simple_test.cpp",
+  "output": "examples/CMakeFiles/simple_test.dir/simple_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/slm_example.dir/slm_example.cpp.o -c /home/jordan/dev/data_munge/examples/slm_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/slm_example.cpp",
+  "output": "examples/CMakeFiles/slm_example.dir/slm_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/softmax_regression_example.dir/softmax_regression_example.cpp.o -c /home/jordan/dev/data_munge/examples/softmax_regression_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/softmax_regression_example.cpp",
+  "output": "examples/CMakeFiles/softmax_regression_example.dir/softmax_regression_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/sparse_matrix_examples.dir/sparse_matrix_examples.cpp.o -c /home/jordan/dev/data_munge/examples/sparse_matrix_examples.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/sparse_matrix_examples.cpp",
+  "output": "examples/CMakeFiles/sparse_matrix_examples.dir/sparse_matrix_examples.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/stats_example.dir/stats_example.cpp.o -c /home/jordan/dev/data_munge/examples/stats_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/stats_example.cpp",
+  "output": "examples/CMakeFiles/stats_example.dir/stats_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/stb_img_test.dir/stb_img_test.cpp.o -c /home/jordan/dev/data_munge/examples/stb_img_test.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/stb_img_test.cpp",
+  "output": "examples/CMakeFiles/stb_img_test.dir/stb_img_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/threaded_frame.dir/threaded_frame.cpp.o -c /home/jordan/dev/data_munge/examples/threaded_frame.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/threaded_frame.cpp",
+  "output": "examples/CMakeFiles/threaded_frame.dir/threaded_frame.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/threaded_hiding.dir/threaded_hiding.cpp.o -c /home/jordan/dev/data_munge/examples/threaded_hiding.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/threaded_hiding.cpp",
+  "output": "examples/CMakeFiles/threaded_hiding.dir/threaded_hiding.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/tinyspline_example.dir/tinyspline_example.cpp.o -c /home/jordan/dev/data_munge/examples/tinyspline_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/tinyspline_example.cpp",
+  "output": "examples/CMakeFiles/tinyspline_example.dir/tinyspline_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/tpbspline_example.dir/tpbspline_example.cpp.o -c /home/jordan/dev/data_munge/examples/tpbspline_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/tpbspline_example.cpp",
+  "output": "examples/CMakeFiles/tpbspline_example.dir/tpbspline_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/variatic_example.dir/variatic_example.cpp.o -c /home/jordan/dev/data_munge/examples/variatic_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/variatic_example.cpp",
+  "output": "examples/CMakeFiles/variatic_example.dir/variatic_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/wx_example.dir/wx_example.cpp.o -c /home/jordan/dev/data_munge/examples/wx_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/wx_example.cpp",
+  "output": "examples/CMakeFiles/wx_example.dir/wx_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/wximage_example.dir/wximage_example.cpp.o -c /home/jordan/dev/data_munge/examples/wximage_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/wximage_example.cpp",
+  "output": "examples/CMakeFiles/wximage_example.dir/wximage_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/wximg_example.dir/wximg_example.cpp.o -c /home/jordan/dev/data_munge/examples/wximg_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/wximg_example.cpp",
+  "output": "examples/CMakeFiles/wximg_example.dir/wximg_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/x11_example.dir/x11_example.cpp.o -c /home/jordan/dev/data_munge/examples/x11_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/x11_example.cpp",
+  "output": "examples/CMakeFiles/x11_example.dir/x11_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/examples",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/x11_image_frame_example.dir/x11_image_frame_example.cpp.o -c /home/jordan/dev/data_munge/examples/x11_image_frame_example.cpp",
+  "file": "/home/jordan/dev/data_munge/examples/x11_image_frame_example.cpp",
+  "output": "examples/CMakeFiles/x11_image_frame_example.dir/x11_image_frame_example.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/experiments",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/1d_fixed_width_experiments.dir/1d_fixed_width_experiments.cpp.o -c /home/jordan/dev/data_munge/experiments/1d_fixed_width_experiments.cpp",
+  "file": "/home/jordan/dev/data_munge/experiments/1d_fixed_width_experiments.cpp",
+  "output": "experiments/CMakeFiles/1d_fixed_width_experiments.dir/1d_fixed_width_experiments.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/experiments",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/1d_fixed_width_experiments_par.dir/1d_fixed_width_experiments_par.cpp.o -c /home/jordan/dev/data_munge/experiments/1d_fixed_width_experiments_par.cpp",
+  "file": "/home/jordan/dev/data_munge/experiments/1d_fixed_width_experiments_par.cpp",
+  "output": "experiments/CMakeFiles/1d_fixed_width_experiments_par.dir/1d_fixed_width_experiments_par.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/experiments",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/1d_pso_experiments.dir/1d_pso_experiments.cpp.o -c /home/jordan/dev/data_munge/experiments/1d_pso_experiments.cpp",
+  "file": "/home/jordan/dev/data_munge/experiments/1d_pso_experiments.cpp",
+  "output": "experiments/CMakeFiles/1d_pso_experiments.dir/1d_pso_experiments.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/adiff_test.dir/adiff_test.cpp.o -c /home/jordan/dev/data_munge/tests/adiff_test.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/adiff_test.cpp",
+  "output": "tests/CMakeFiles/adiff_test.dir/adiff_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/base_tests.dir/base_tests.cpp.o -c /home/jordan/dev/data_munge/tests/base_tests.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/base_tests.cpp",
+  "output": "tests/CMakeFiles/base_tests.dir/base_tests.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/dataframe_test.dir/dataframe_test.cpp.o -c /home/jordan/dev/data_munge/tests/dataframe_test.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/dataframe_test.cpp",
+  "output": "tests/CMakeFiles/dataframe_test.dir/dataframe_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/x11_tests.dir/x11_tests.cpp.o -c /home/jordan/dev/data_munge/tests/x11_tests.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/x11_tests.cpp",
+  "output": "tests/CMakeFiles/x11_tests.dir/x11_tests.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/tests.dir/adiff_test.cpp.o -c /home/jordan/dev/data_munge/tests/adiff_test.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/adiff_test.cpp",
+  "output": "tests/CMakeFiles/tests.dir/adiff_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/tests.dir/base_tests.cpp.o -c /home/jordan/dev/data_munge/tests/base_tests.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/base_tests.cpp",
+  "output": "tests/CMakeFiles/tests.dir/base_tests.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/tests.dir/dataframe_test.cpp.o -c /home/jordan/dev/data_munge/tests/dataframe_test.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/dataframe_test.cpp",
+  "output": "tests/CMakeFiles/tests.dir/dataframe_test.cpp.o"
+},
+{
+  "directory": "/home/jordan/dev/data_munge/build/default/tests",
+  "command": "/usr/bin/c++  -I/home/jordan/dev/data_munge/build/default/_deps/plfnanotimer-src -I/home/jordan/dev/data_munge/extern/BSplinebasis/include -I/home/jordan/dev/data_munge/extern/stats/include -I/home/jordan/dev/data_munge/extern/range-v3/include -I/home/jordan/dev/data_munge/include -I/home/jordan/dev/data_munge/extern/plf_nanotimer -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest/include -isystem /home/jordan/dev/data_munge/build/default/_deps/googletest-src/googletest  -ggdb -std=c++20 -lpng -lX11 -lpthread -fopenmp  -std=gnu++20 -o CMakeFiles/tests.dir/x11_tests.cpp.o -c /home/jordan/dev/data_munge/tests/x11_tests.cpp",
+  "file": "/home/jordan/dev/data_munge/tests/x11_tests.cpp",
+  "output": "tests/CMakeFiles/tests.dir/x11_tests.cpp.o"
+}
+]

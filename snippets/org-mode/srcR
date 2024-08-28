@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
 # name: R source block
-# uuid:
 # key: srcR
-# condition: t
 # --
 
 #+BEGIN_SRC R :results output :cache yes

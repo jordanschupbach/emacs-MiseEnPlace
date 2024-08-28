@@ -11,7 +11,7 @@
   ;; 			  ))
   ;; (setq dashboard-set-heading-icons t)
   ;; (setq dashboard-set-file-icons t)
-  (setq dashboard-startup-banner "~/.emacs.d/_assets/mise_en_place.png")
+  (setq dashboard-startup-banner "~/.emacs.misenplace/_assets/mise_en_place.png")
   ;; ;; (add-to-list 'dashboard-items '(agenda) t)
   ;; (setq dashboard-week-agenda t)
   ;; (setq dashboard-filter-agenda-entry 'dashboard-no-filter-agenda)

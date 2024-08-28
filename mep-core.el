@@ -19,18 +19,18 @@
   "increases window height if window below, decreases otherwise"
   (interactive)
   (if (and (null (window-in-direction 'below))
-           (not (misenplace/buffer-name-contains-vterm)))
-      (evil-window-decrease-height 1)
-      (evil-window-increase-height 1)))
+           (not (mep/buffer-name-contains-vterm)))
+      (evil-window-decrease-height 2)
+      (evil-window-increase-height 2)))
 
 
 (defun mep/change-window-size-k ()
   "decreases window height if window below, increases otherwise"
   (interactive)
   (if (and (null (window-in-direction 'below))
-           (not (misenplace/buffer-name-contains-vterm)))
-      (evil-window-increase-height 1)
-      (evil-window-decrease-height 1)))
+           (not (mep/buffer-name-contains-vterm)))
+      (evil-window-increase-height 2)
+      (evil-window-decrease-height 2)))
 
 
 (defun mep/doom-sync ()
@@ -42,30 +42,30 @@
   "increases window height if window below, decreases otherwise"
   (interactive)
   (if (window-in-direction 'right)
-      (evil-window-decrease-width 1)
-      (evil-window-increase-width 1)))
+      (evil-window-decrease-width 2)
+      (evil-window-increase-width 2)))
 
 
 (defun mep/change-window-size-l ()
   "increases window height if window below, decreases otherwise"
   (interactive)
   (if (window-in-direction 'right)
-      (evil-window-increase-width 1)
-      (evil-window-decrease-width 1)))
+      (evil-window-increase-width 2)
+      (evil-window-decrease-width 2)))
 
 
 (defun mep/increase-treemacs-width ()
   (let ((treemacs-buffer (get-buffer "*Treemacs*")))
     (when (and treemacs-buffer (get-buffer-window treemacs-buffer))
       (let* ((current-width (window-width (get-buffer-window treemacs-buffer)))
-             (new-width (+ current-width 10)))
+             (new-width (+ current-width 30)))
         (enlarge-window-horizontally (- new-width current-width) t)))))
 
 (defun mep/decrease-treemacs-width ()
   (let ((treemacs-buffer (get-buffer "*Treemacs*")))
     (when (and treemacs-buffer (get-buffer-window treemacs-buffer))
       (let* ((current-width (window-width (get-buffer-window treemacs-buffer)))
-             (new-width (- current-width 10)))
+             (new-width (- current-width 30)))
         (enlarge-window-horizontally (- new-width current-width) t)))))
 
 (defun mep/window-with-vterm-buffer-p ()
@@ -211,6 +211,8 @@
   (defun mep/send-line-to-target-process ()
     "Send a line to process defined by target-buffer."
     (interactive)
+    (if (void-variable 'target-buffer)
+	(mep/ivy-set-process-target))
     (setq proc (get-process target-buffer))
     (setq com (concat (buffer-substring (point-at-bol) (point-at-eol)) "\n"))
     (process-send-string target-buffer com)
@@ -336,7 +338,7 @@
     (projectile-add-known-project proj-dir))
 
 
-  (defun misenplace/get-linux-os-name ()
+  (defun mep/get-linux-os-name ()
     "Get the name of the linux operating system"
     (interactive)
     (replace-regexp-in-string
@@ -345,7 +347,7 @@
       "cat /etc/os-release | grep 'NAME' | head -n 1 | cut -c7- | sed 's/[/\"]//'")))
 
 
-  (defun misenplace/server-shutdown ()
+  (defun mep/server-shutdown ()
     "Save buffers, Quit, and Shutdown (kill) server"
     (interactive)
     (save-some-buffers)

@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
 # name: python src block
-# uuid:
 # key: srcPython
-# condition: t
 # --
 
 #+begin_src python :results output

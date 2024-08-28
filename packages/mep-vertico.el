@@ -15,17 +15,27 @@
                                 vertico-directory
                                 vertico-multiform
                                 vertico-unobtrusive))
-  :general
-  (:keymaps 'vertico-map
-   "<tab>" #'vertico-insert    ; Choose selected candidate
-   "<escape>" #'minibuffer-keyboard-quit ; Close minibuffer
-   ;; NOTE 2022-02-05: Cycle through candidate groups
-   "C-M-n" #'vertico-next-group
-   "C-M-p" #'vertico-previous-group)
- :init
+  ;; :general
+  ;; (:keymaps 'vertico-map
+  ;;  "<tab>" #'vertico-insert    ; Choose selected candidate
+  ;;  "<escape>" #'minibuffer-keyboard-quit ; Close minibuffer
+  ;;  ;; NOTE 2022-02-05: Cycle through candidate groups
+  ;;  "C-M-n" #'vertico-next-group
+  ;;  "C-M-p" #'vertico-previous-group)
+ :config
  (vertico-mode))
 
 
+
+
+
+;; ;; https://github.com/tumashu/vertico-posframe
+;; (use-package vertico-posframe
+;;   :straight (vertico-posframe :host github
+;; 		     :repo "tumashu/vertico-posframe"
+;; 		     :files (:defaults "extensions/*"))
+;;  :config
+;;  (vertico-posframe-mode 1))
 
 
 ;; ;; Persist history over Emacs restarts. Vertico sorts by history position.
