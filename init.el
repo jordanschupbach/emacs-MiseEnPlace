@@ -1,5 +1,6 @@
 ; MisEnPlace init
 
+
 ;; (byte-recompile-directory "~/.emacs.d" 0 t)
 
 (require 'package)
@@ -22,7 +23,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("9f297216c88ca3f47e5f10f8bd884ab24ac5bc9d884f0f23589b0a46a608fe14" "88f7ee5594021c60a4a6a1c275614103de8c1435d6d08cc58882f920e0cec65e" 'doom-one 'doom-one-light default))
+   '("0325a6b5eea7e5febae709dab35ec8648908af12cf2d2b569bedc8da0a3a81c1"
+     "9f297216c88ca3f47e5f10f8bd884ab24ac5bc9d884f0f23589b0a46a608fe14"
+     "88f7ee5594021c60a4a6a1c275614103de8c1435d6d08cc58882f920e0cec65e"
+     'doom-one 'doom-one-light default))
  '(safe-local-variable-values
    '((org-gtd-directory . "~/.emacs.misenplace/gtd")
      (org-gtd-directory . ~/.emacs.misenplace/gtd)))
